@@ -1,0 +1,25 @@
+/*.mytable {
+
+}
+.mytable th{
+    padding:10px;
+    margin:10px;
+    border:1px dotted gray;
+    background-color: pink;
+}
+.mytable td{
+    padding:10px;
+    margin:10px;
+    border:1px dotted gray;
+    background-color: white;
+}*/
+
+/*.spacer{
+    margin-top: 20px;
+}*/
+.spacer {
+    margin-top: 60px;
+}
+/*input[type=text]:hover{
+    background-color: yellow;
+}*/
