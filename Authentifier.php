@@ -1,7 +1,7 @@
 <?php
 require_once("connexion.php");
 $login=$_POST['username'];
-$password=md5($_POST['pass']);//on utilise la fonction md5 pour avoir le mot de passe crypté dans la base de donées.
+$password=md5($_POST['pass']);//on utilise la fonction md5 pour avoir le mot de passe cryptÃ© dans la base de donnÃ©es.
 $email=$_POST['email'];
 $ps=$pdo->prepare("select * from users where LOGIN=? AND PASSWORD=?");
 $params=array($login,$password);
